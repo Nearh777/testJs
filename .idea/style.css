@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap');
+
+
+body {
+    font-family: Montagu Slab, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+#users-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+}
+.user-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.user-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.user-card a:hover {
+    background-color: #0056b3;
+}
+
+
+
+.user-info {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 60%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.posts-button {
+    width: 90%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.posts-button:hover {
+    background-color: #218838;
+}
+#posts-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    max-width: 80%;
+}
+.post-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eef;
+    text-align: center;
+}
+.post-card a {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.post-card a:hover {
+    background-color: #0056b3;
+}
+
+
+.post-info {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 60%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#comments-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 80%;
+}
+.comment-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #eef;
+    text-align: center;
+}
